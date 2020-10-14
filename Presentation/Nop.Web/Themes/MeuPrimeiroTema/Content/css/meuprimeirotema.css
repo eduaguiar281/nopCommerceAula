@@ -1,0 +1,29 @@
+﻿.primeirotema-coluna {
+  float: left;
+}
+
+.primeirotema-esquerda {
+  width: 85%;
+}
+
+.primeirotema-direita {
+  width: 15%;
+}
+
+.primeirotema-linha:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.search-box .primeirotema-search-box-button {
+  height: 40px;
+  border: none;
+  background-color: #eee;
+  padding: 0 10px;
+}
+
+  .search-box .primeirotema-search-box-button:hover {
+    background-color: #ccc;
+  }

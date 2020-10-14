@@ -1,0 +1,16 @@
+﻿@model Nop.Plugin.Widgets.DunderMifflinManagers.Models.WidgetConfiguration
+@{
+    Layout = "";
+
+    //Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js");
+    Html.AddCssFileParts($"{Nop.Plugin.Widgets.DunderMifflinManagers.Models.DunderMiffilnConstants.StyleSheetsPlugginPath}/dundertheme.css");
+}
+
+<div class="dunder-container">
+    <div class="dunder-center">
+        <h1>@Model.ManagerName Olá Muuuuunndo! </h1>
+        <h2>@Model.ManagerAssistantName Olá Mundo, não compre aqui, compre comigo por Telefone!</h2>
+        <h3>@Model.AssistantOfManagerAssistantName Oláaaaa! </h3>
+    </div>
+</div>
+

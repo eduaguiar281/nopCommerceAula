@@ -1,0 +1,11 @@
+{
+  "Group": "Widgets",
+  "FriendlyName": "Dunder Mifflin",
+  "SystemName": "Widgets.DunderMifflinManagers",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.30", "4.40" ],
+  "Author": "Aguiar Solutions",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.DunderMifflinManagers.dll",
+  "Description": "Este plugin e o de exibicao da Dunder Mifflin"
+}

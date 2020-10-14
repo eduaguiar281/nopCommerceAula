@@ -1,0 +1,54 @@
+﻿@model Nop.Plugin.Widgets.DunderMifflinManagers.Models.WidgetConfiguration
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+<form asp-controller="WidgetsDunderMifflin" asp-action="Configure" method="post">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                @T("Plugins.Widgets.DunderMifflinManagers.ManagersComposite")
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="ManagerName" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ManagerName" />
+                        <span asp-validation-for="ManagerName"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="ManagerAssistantName" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ManagerAssistantName" />
+                        <span asp-validation-for="ManagerAssistantName"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="AssistantOfManagerAssistantName" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="AssistantOfManagerAssistantName" />
+                        <span asp-validation-for="AssistantOfManagerAssistantName"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

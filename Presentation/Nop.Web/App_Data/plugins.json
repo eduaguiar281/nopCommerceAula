@@ -70,9 +70,15 @@
     {
       "SystemName": "ExternalAuth.Facebook",
       "Version": "1.63"
+    },
+    {
+      "SystemName": "Widgets.DunderMifflinManagers",
+      "Version": "1.00"
     }
   ],
-  "PluginNamesToUninstall": [],
+  "PluginNamesToUninstall": [
+    "Widgets.DunderMifflinManagers"
+  ],
   "PluginNamesToDelete": [],
   "PluginNamesToInstall": []
 }
