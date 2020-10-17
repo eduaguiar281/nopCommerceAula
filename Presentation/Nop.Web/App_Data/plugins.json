@@ -76,9 +76,7 @@
       "Version": "1.00"
     }
   ],
-  "PluginNamesToUninstall": [
-    "Widgets.DunderMifflinManagers"
-  ],
+  "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [],
   "PluginNamesToInstall": []
 }
